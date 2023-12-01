@@ -10,9 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/slider": "^4.4.3",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/drawer": "^6.6.6",
+    "@react-navigation/native": "^6.1.9",
     "drawer": "^0.0.2",
     "react": "^18.2.0",
-    "react-native": "0.72.7"
+    "react-native": "0.72.7",
+    "react-native-paper": "^5.11.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -33,5 +38,11 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
   }
 }
